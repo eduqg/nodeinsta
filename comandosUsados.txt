@@ -1,0 +1,12 @@
+-> Criar package.json
+yarn init -y
+
+-> Adicionar express
+yarn add express
+
+-> Adicionar Nodemon para criar scrips no package.json para ser usado apenas no ambiente de desenvolvimento
+-> Ele serve para ao realizar alterações no código, atualizar o servidor que estará rodando
+yarn add nodemon -D
+yarn dev (deve ser configurado)
+
+-> 
