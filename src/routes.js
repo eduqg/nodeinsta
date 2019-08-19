@@ -1,10 +1,8 @@
 const express = require('express');
+const PostController = require('./controllers/PostController');
 
 const routes = new express.Router();
 
-// Middleware que intercepta requisição na rota raiz
-routes.get('/', (req, res) => {
-    return res.send('Hello World');
-});
+routes.post('/posts', PostController.store);
 
 module.exports = routes;
