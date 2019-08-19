@@ -7,7 +7,6 @@ module.exports = {
     "database": "instarocket_development",
     "host": "127.0.0.1",
     "dialect": "postgres",
-    "operatorsAliases": false
   },
   "test": {
     "username": "eduardo",
@@ -15,7 +14,6 @@ module.exports = {
     "database": "instarocket_development",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
   },
   "production": {
     "username": "root",
@@ -23,6 +21,5 @@ module.exports = {
     "database": "instarocket_development",
     "host": "127.0.0.1",
     "dialect": "mysql",
-    "operatorsAliases": false
   }
 }
