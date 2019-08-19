@@ -14,3 +14,9 @@ yarn add multer
 
 -> Permite manipular imagens na aplicação, por exemplo para redimensionar
 yarn add sharp
+
+-> Permite ser acessivel pelo frontend
+yarn add cors
+
+-> Para api emitir informação para frontend
+yarn add socket.io
