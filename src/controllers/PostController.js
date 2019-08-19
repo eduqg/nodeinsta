@@ -5,6 +5,8 @@ module.exports = {
 
     },
     async store(req, res) {
+        console.table(req.body);
+        console.log(req.file);
         return res.json({ok: true});
     }
 }
