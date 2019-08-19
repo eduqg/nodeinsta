@@ -4,7 +4,8 @@ const Post = sequelize.import('../models/post');
 
 module.exports = {
     async index(req, res) {
-
+        const posts = await Post.findAll({order: sequelize.literal('"createdAt" DESC')});
+        return res.json(posts);
     },
     async store(req, res) {
         // console.table(req.body);

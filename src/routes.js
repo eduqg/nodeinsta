@@ -8,5 +8,6 @@ const upload = multer(uploadConfig);
 
 // image refere ao campo da tabela Posts
 routes.post('/posts', upload.single('image'), PostController.store);
+routes.get('/posts', PostController.index);
 
 module.exports = routes;
