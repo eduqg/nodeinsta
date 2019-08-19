@@ -2,11 +2,11 @@
 module.exports = (sequelize, DataTypes) => {
   const Post = sequelize.define('Post', {
     author: DataTypes.STRING,
-    place: Sequelize.STRING,
-    description: Sequelize.STRING,
-    hashtags: Sequelize.STRING,
-    image: Sequelize.STRING,
-    likes: Sequelize.INTEGER
+    place: DataTypes.STRING,
+    description: DataTypes.STRING,
+    hashtags: DataTypes.STRING,
+    image: DataTypes.STRING,
+    likes: DataTypes.INTEGER
   }, {});
   Post.associate = function (models) {
     // associations can be defined here
