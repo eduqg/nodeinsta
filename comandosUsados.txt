@@ -12,4 +12,5 @@ yarn dev (deve ser configurado)
 -> Usado para multiparts de uma requisição. Automatiza processo de upload de arquivos no backend. 
 yarn add multer
 
-->
+-> Permite manipular imagens na aplicação, por exemplo para redimensionar
+yarn add sharp
